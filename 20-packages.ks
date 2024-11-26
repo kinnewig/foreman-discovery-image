@@ -112,6 +112,7 @@ tcpdump
 
 -checkpolicy
 -selinux* # remove all selinux packages
+-libselinux-utils
 -fedora-release-rawhide
 -usermode
 -usermode-gtk
@@ -125,18 +126,38 @@ tcpdump
 -logrotate
 
 # various other things we remove to save space
+-avahi-autoipd
+-coreutils-libs
+-dash
 -db4-utils
+-diffutils
+-firewalld
+-info
+-iptables
 -jasper-libs
+-libasyncns
 -libXxf86misc
 -libhbaapi
 -libhbalinux
 -libtiff
+-linux-atm-libs
+-lvm2-libs
+-m4
 -mailx
 -makebootfat
+-mingetty
 -mobile-broadband-provider-info
+-pkgconfig
+-ppp
+-pth
 -rmt
+-rpcbind
+-squashfs-tools
 -system-config-firewall-base
+-tigervnc-license
+-ttmkfdir
 -xorg-x11-font-utils
 -xorg-x11-server-common
--firewalld
+-xml-common
+-yum-utils
 %end
